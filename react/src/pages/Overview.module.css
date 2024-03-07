@@ -1,0 +1,86 @@
+.grid-layout {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  column-gap: 2.5rem;
+  row-gap: 1.5em;
+  background-color: rgb(4, 0, 38, 0);
+  width: 100%;
+  justify-items: center;
+}
+
+@media only screen and (max-width: 1000px) {
+  .grid-layout {
+    display: grid;
+    grid-template-columns: 100%;
+    column-gap: 2.5rem;
+    row-gap: 1.5em;
+    background-color: rgb(4, 0, 38, 0);
+    width: 100%;
+    justify-items: center;
+  }
+}
+
+.grid-box {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(48, 48, 84, 0.4);
+  width: 95%;
+  justify-items: center;
+  padding: 15px;
+  min-height: 12em;
+  border-radius: 5px;
+}
+
+.grid-box-image {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(48, 48, 84, 0.4);
+  width: 95%;
+  justify-items: center;
+  padding: 0px;
+  border-radius: 5px;
+}
+
+.grid-item-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.label {
+  font-size: 1.5rem;
+  color: #57ecc2;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  letter-spacing: .05rem;
+}
+
+.label-subtext {
+  font-size: 1.4rem;
+  color: #118583;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  letter-spacing: .05rem; 
+}
+
+.link {
+  font-size: 1rem;
+  color: #00a4b7; /*rgb(0, 255, 255, 0.75)*/;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bold;
+  letter-spacing: .05rem;
+}
+
+.info-text {
+  font-size: 1rem;
+  color: #f9f8ff;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: .05rem;
+}
+
+.line {
+  border-top: #f9f8ff;
+  margin-top: 0.5rem;
+}

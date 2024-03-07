@@ -1,0 +1,5 @@
+export { default as Games } from './Games'
+export { default as Details1 } from './Details1'
+export { default as Details2 } from './Details2'
+export { default as Projects } from './Projects'
+export { default as About } from './About'
