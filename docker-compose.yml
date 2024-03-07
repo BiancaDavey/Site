@@ -1,9 +1,5 @@
 version: '3'
 services:
-  mongo-db:
-    image: mongo
-    ports:
-      - 27017:27017
   client-app:
     build: ./react
     environment:
@@ -13,11 +9,3 @@ services:
       - ./react/public:/react/public
     ports:
       - 3000:3000
-  server-app:
-    build: ./service
-    environment:
-      - dbURI=mongodb://mongo-db:27017
-    volumes:
-      - ./service/src:/service/src
-    ports:
-      - 8080:8080
