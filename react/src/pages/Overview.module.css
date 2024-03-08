@@ -50,7 +50,6 @@
 .label {
   font-size: 1.5rem;
   color: #57ecc2;
-  /*font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;*/
   font-weight: bolder;
   text-align: center;
   letter-spacing: .05rem;
@@ -59,7 +58,6 @@
 .label-subtext {
   font-size: 1.4rem;
   color: #118583;
-  /*font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;*/
   font-weight: bolder;
   text-align: center;
   letter-spacing: .05rem; 
@@ -67,8 +65,7 @@
 
 .link {
   font-size: 1rem;
-  color: #00a4b7; /*rgb(0, 255, 255, 0.75)*/;
-  /*font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;*/
+  color: #00a4b7;
   font-weight: bold;
   letter-spacing: .05rem;
 }
@@ -76,7 +73,6 @@
 .info-text {
   font-size: 1rem;
   color: #f9f8ff;
-  /*font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;*/
   letter-spacing: .05rem;
 }
 
