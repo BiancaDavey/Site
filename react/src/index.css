@@ -18,32 +18,3 @@ a {
   text-decoration: none;
   color: inherit;
 }
-
-style-definitions {
-  background-color: rgb(4, 0, 38); /* #19052e;  /* Main App background */
-  background-color: rgb(4, 0, 38, 0); /* rgb(66, 30, 143, 0.05);  /*  Main background for grid layout */
-  background-color: rgb(48, 48, 84, 0.4); /*rgb(4, 0, 38, 0.5); /*rgb(66, 30, 143, 0.5);  /*  Grid boxes */
-  background-color: rgb(48, 48, 84, 0.4); /*rgba(221, 219, 225, 0.25);  /*  Grid box img */
-  background-color: rgb(48, 48, 84, 0.4); /* rgb(66, 30, 143, 0.25);  /*  Grid box img projects */
-  background-color: rgb(48, 48, 84, 0); /*  Grid box details/about page */
-  background-color: #080050; /* New Header & footer  */
-  background-color: #310a5d;  /*  Old Header & footer */
-  color: #f9f8ff;  /*  Header title */
-  color: #f9f8ff;  /*  Header labels */
-  color: #f9f8ff;  /*  Text */
-  color: rgb(0, 255, 255, 0.75);  /*  Links */
-  color: #57ecc2; /* rgb(0, 255, 255, 0.75);  /*  Labels */
-  color: rgb(153, 0, 153);  /*  Project page using label */
-}
-
-/*
-#2a2438 dark
-#352f44 dark grey
-#310a5d dark purple
-#411e8f purple
-
-#19052e dark f/dark purple
-
-#241663 purple-blue
-#160f30 dark purple blue
-*/
