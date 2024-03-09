@@ -6,7 +6,7 @@ export default function About() {
   const dataAbout = content.about.map((aboutArray) => {
     return (
       <>
-          <label className={style.label}>{aboutArray.title}</label>
+          <label className={style['details-label']}>{aboutArray.title}</label>
           <hr className={style.line}></hr>
           <p className={style['info-text']}>
               <br></br>{aboutArray.a1}

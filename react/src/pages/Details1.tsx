@@ -7,7 +7,7 @@ export default function Details1() {
     const dataDetails = content['details-1'].map((detailsArray) => {
       return (
         <>
-            <label className={style.label}>{detailsArray.title}</label>
+            <label className={style['details-label']}>{detailsArray.title}</label>
             <hr className={style.line}></hr>
             <img className={style['grid-item-image']} src={detailsArray.img1} alt={detailsArray.alt1}></img>
             <p className={style['info-text']}>
@@ -59,7 +59,7 @@ export default function Details1() {
       <>
         <div className={style['grid-layout']}>
             <div className={style['grid-box']}>
-                <div className={style['grid-item']}>
+                <div className={style['grid-items']}>
                     {dataDetails}
                     {dataDetails1Videos}
                     {dataDetailsList1}
