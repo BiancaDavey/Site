@@ -39,7 +39,7 @@ export default function Games() {
               <br></br>{detailsArray.d1}
               <br></br><br></br>{detailsArray['link1-text']}
               <a className={style.link} href={detailsArray.link1} target={detailsArray['link1-target']} rel="noreferrer"> {detailsArray['link1-word']}</a>
-            </p>
+          </p>
       </>
     )
   })
@@ -48,16 +48,20 @@ export default function Games() {
   const dataDetailsList1 = content['details-1-lists'].map((detailsList1Array) => {
       return (
           <>
-           <br></br><label className={style.subheading}>{detailsList1Array.subheading}</label>
-              <br></br><br></br><ul className={style['info-text']}>
-                  <li>{detailsList1Array.b1}</li>
-                  <li>{detailsList1Array.b2}</li>
-                  <li>{detailsList1Array.b3}</li>
-                  <li>{detailsList1Array.b4}</li>
-                  <li>{detailsList1Array.b5}</li>
-                  <li>{detailsList1Array.b6}</li>
-                  <li>{detailsList1Array.b7}</li>
-              </ul>
+          <details open>
+            <summary>
+              <br></br><label className={style.subheading}>{detailsList1Array.subheading + " >"}</label>
+            </summary>
+                <br></br><br></br><ul className={style['info-text']}>
+                    <li>{detailsList1Array.b1}</li>
+                    <li>{detailsList1Array.b2}</li>
+                    <li>{detailsList1Array.b3}</li>
+                    <li>{detailsList1Array.b4}</li>
+                    <li>{detailsList1Array.b5}</li>
+                    <li>{detailsList1Array.b6}</li>
+                    <li>{detailsList1Array.b7}</li>
+                </ul>
+            </details>
           </>
       )
   })

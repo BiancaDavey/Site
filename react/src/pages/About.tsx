@@ -19,14 +19,14 @@ export default function About() {
   const dataAboutList = content['about-lists'].map((aboutListArray) => {
       return (
           <>
-           <br></br><label className={style.subheading}>{aboutListArray.subheading}</label>
-              <br></br><br></br><ul className={style['info-text']}>
-                  <li>{aboutListArray.b1}</li>
-                  <li>{aboutListArray.b2}</li>
-                  <li>{aboutListArray.b3}</li>
-                  <li>{aboutListArray.b4}</li>
-                  <li>{aboutListArray.b5}</li>
-              </ul>
+            <br></br><label className={style.subheading}>{aboutListArray.subheading}</label>
+            <br></br><br></br><ul className={style['info-text']}>
+                <li>{aboutListArray.b1}</li>
+                <li>{aboutListArray.b2}</li>
+                <li>{aboutListArray.b3}</li>
+                <li>{aboutListArray.b4}</li>
+                <li>{aboutListArray.b5}</li>
+            </ul>
           </>
       )
   })
