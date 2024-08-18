@@ -140,6 +140,7 @@
   font-weight: bolder;
   text-align: center;
   letter-spacing: .05rem;
+  margin-left: 1rem;
 }
 
 .subheading-video {
@@ -158,3 +159,25 @@
   width: 100%;
   border: 1px;
 }
+
+details > summary {
+  list-style-type: '▸ ';
+  font-weight: bold;
+  color: #f9f8ff;
+}
+
+details[open] > summary {
+  list-style-type: '▼ ';
+  font-weight: bold;
+  color: #f9f8ff;
+}
+
+details {
+  padding: 1rem;
+  background-color: rgb(48, 48, 84, 0.4);
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 5px;
+}
+
+/*▶️🔽*/

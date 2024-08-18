@@ -48,11 +48,11 @@ export default function Games() {
   const dataDetailsList1 = content['details-1-lists'].map((detailsList1Array) => {
       return (
           <>
-          <details open>
+          <details>
             <summary>
-              <br></br><label className={style.subheading}>{detailsList1Array.subheading + " >"}</label>
+              <label className={style.subheading}>{detailsList1Array.subheading}</label>
             </summary>
-                <br></br><br></br><ul className={style['info-text']}>
+                <br></br><ul className={style['info-text']}>
                     <li>{detailsList1Array.b1}</li>
                     <li>{detailsList1Array.b2}</li>
                     <li>{detailsList1Array.b3}</li>
