@@ -32,7 +32,7 @@ export default function Games() {
   const dataDetails = content['details-1'].map((detailsArray) => {
     return (
       <>
-          <label className={style['details-label']}>{detailsArray.title}</label>
+          <label id={detailsArray['section-id']} className={style['details-label']}>{detailsArray.title}</label>
           <hr className={style['details-line']}></hr>
           <img className={style['grid-item-image']} src={detailsArray.img1} alt={detailsArray.alt1}></img>
           <p className={style['info-text']}>
