@@ -79,6 +79,50 @@ export default function Projects() {
       </>
     )
   })
+
+  //  Content from Details 3.
+  const detailsArray3 = content['details-3'];
+  const dataDetails3 = content['details-3'].map((detailsArray3) => {
+    return (
+      <>
+          <label className={style['details-label']}>{detailsArray3.title}</label>
+          <hr className={style.line}></hr>
+          <img className={style['grid-item-image']} src={detailsArray3.img1} alt={detailsArray3.alt1}></img>
+          <p className={style['info-text']}>
+              <br></br>{detailsArray3.d1}
+              <br></br><br></br>{detailsArray3.d2}
+              <br></br><br></br>{detailsArray3['link1-text']}
+              <a className={style.link} href={detailsArray3.link1} target={detailsArray3['link1-target']} rel="noreferrer"> {detailsArray3['link1-word']}</a>
+            </p>
+      </>
+    )
+  })
+
+  const detailsListArray3 = content['details-3-lists'];
+  const dataDetailsList3 = content['details-3-lists'].map((detailsListArray3) => {
+      return (
+          <>
+           <br></br><label className={style.subheading}>{detailsListArray3.subheading}</label>
+              <br></br><br></br><ul className={style['info-text']}>
+                  <li>{detailsListArray3.b1}</li>
+                  <li>{detailsListArray3.b2}</li>
+                  <li>{detailsListArray3.b3}</li>
+                  <li>{detailsListArray3.b4}</li>
+                  <li>{detailsListArray3.b5}</li>
+              </ul>
+          </>
+      )
+  })
+
+  const detailsImgArray3 = content['details-3'];
+  const dataDetailsImg3 = content['details-3'].map((detailsArray3) => {
+    return (
+      <>
+          <br></br><br></br>
+          <img className={style['grid-item-image']} src={detailsArray3.img2} alt={detailsArray3.alt2}></img>
+      </>
+    )
+  })
   
   return (
     <>
@@ -89,6 +133,11 @@ export default function Projects() {
                         {dataDetails}
                         {dataDetailsList}
                         {dataDetailsImg}
+                    </div>
+                    <div className={style['grid-item']}>
+                        {dataDetails3}
+                        {dataDetailsList3}
+                        {dataDetailsImg3}
                     </div>
                 </div>
             </div>
